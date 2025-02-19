@@ -52,10 +52,7 @@
     }
    ],
    "source": [
-    "# To connect to google drive\n",
-    "drive.mount('/content/gdrive')\n",
-    "\n",
-    "path = \"/content/gdrive/MyDrive/CSE 569 Project 2/\"\n",
+   
     "# Load data\n",
     "train_class0 = scipy.io.loadmat(path+'train_class0.mat')['x']\n",
     "train_class1 = scipy.io.loadmat(path+'train_class1.mat')['x']\n",
